@@ -35,8 +35,8 @@ int main() {
   int mask = (1 << position1);
   int bitOnNum = num1 | mask;
   int bitOffNum = num1 & ~mask;
-  printf("Number with the bit %d set to 1: %d \n", position1, bitOnNum);
-  printf("Number with the bit %d set to 0: %d \n",position1, bitOffNum);
+  printf("Number with bit %d set to 1: %d \n", position1, bitOnNum);
+  printf("Number with bit %d set to 0: %d \n",position1, bitOffNum);
 
   // Toggle bit
   printf("\nToggle bit:\n");
@@ -50,7 +50,7 @@ int main() {
   scanf("%d", &position2);
   int mask2 = (1 << position2);
   int toggledNum = num2 ^ mask2;
-  printf("Number with the bit %d toggled: %d \n", position2, toggledNum);
+  printf("Number with bit %d toggled: %d \n", position2, toggledNum);
 
   // Even - Odd
   printf("\nEven - Odd:\n");
@@ -73,7 +73,7 @@ int main() {
   printf("Please enter the second number (octal):\n");
   scanf("%o", &num5);
   int sum = num4 + num5;
-  printf("The sum in hexadecimal is: %X \n", sum);
+  printf("The sum in hexadecimal: %X \n", sum);
   int thirdBit = (sum >> 3) & 0x1;
   int fifthBit = (sum >> 5) & 0x1;
   int seventhBit = (sum >> 7) & 0x1;
