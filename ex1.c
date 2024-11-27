@@ -1,6 +1,6 @@
 /******************
 Name: ariel mizrahi
-ID: 213458821
+ID: 
 Assignment: ex1
 *******************/
 #include <stdio.h>
